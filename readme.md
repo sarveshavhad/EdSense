@@ -18,12 +18,7 @@ EDSENSE Project
 
 ### Installing
 
-1. Clone the repo
-
-```sh
-git clone https://github.com/om-ghate/EDSENSE.git
-```
-2. Install NPM packages
+1. Install NPM packages
 
   **Run Server**
 ```sh
