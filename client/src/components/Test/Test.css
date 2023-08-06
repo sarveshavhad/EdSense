@@ -1,0 +1,298 @@
+.Test {
+    text-align: center;
+    background-color: #e9f7fa;
+    min-height: 100vh;
+    background-image: url("img.jpg"  );
+    background-size: 100% 100%;
+  }
+  /* CSS */
+  .thankyou-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .thankyou-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .thankyou-text {
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+  }
+  
+  img{
+    width: 100vh;;
+  }
+  h1 {
+    margin: 0px;
+    
+  }
+  .header {
+    background-color: #42b2fc;
+    text-align: start;
+    padding-left: 10px;
+    height: 9vh;
+    border: 2px solid white;
+    border-radius: 8px;
+  }
+  .Mbox {
+    background-color: white;
+    padding-top: 0.65ch;
+      box-sizing: border-box;
+      /* position: absolute; */
+      font-weight:440 ;
+      width: 15vh;
+      height: 15vh;
+      /* left: 2ch;
+      top: 5.5vh; */
+      border: 3px solid #000000;
+      font-size: 3rem;
+  }
+  .Sign {
+    /* position: absolute; */
+      /* width: 11px; */
+      /* height: 30vh; */
+      /* left: 12.5rem; */
+      /* top: 11vh; */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 5000;
+      font-size: 7vh;
+      line-height: 28px;
+  
+  }
+  .Mbox1 {
+     background-color: white;
+      box-sizing: border-box;
+      /* position: absolute; */
+      width: 15vh;
+      height: 15vh;
+      /* left: 10.5ch; */
+      padding-top: 0.65ch;
+      font-weight:440 ;
+      text-align: center;
+      top: 5.5vh;
+      border: 3px solid #000000;
+      font-size: 3rem}
+  .equals {
+    /* position: absolute; */
+    width: 11px;
+    /* height: 30vh; */
+    /* left: 55.5vh;
+    top: 11vh; */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 5000;
+    font-size: 7vh;
+    line-height: 28px;
+    margin-right: 0px;
+  }
+  .mbox2 {
+    background-color: white;
+    padding: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 15vh;
+    height: 15vh;
+    /* left: 18ch;
+    top: 5.5vh; */
+    font-size: 3rem;
+    border: 3px solid #000000;
+  }
+  
+  .obox {
+    /* position: absolute; */
+    width: 40rem ;
+    height: 23vh;
+    padding: 20px;
+    
+    align-items: center;
+    /* left: 60vh;
+    top: 30vh; */
+    background: #7ec6f5;
+    border-radius: 9vh;
+    margin: 105px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 105px 0px;
+  }
+  
+  .edsense{
+    font-size: 10vh;
+    font-size: 6.5vh;
+   
+  
+  }
+  .question {
+    padding-top: 2.5vh;
+    text-align: center;
+  }
+  .s{
+    padding-top: 2.2vh;
+    font-size: 7vh;
+    font-weight: 500;
+  }
+  .f{
+    padding-top: 2.2vh;
+    font-size: 7vh;
+    font-weight: 500;
+  }
+  .button1 
+  {
+    
+    margin-top: -2rem; /* Adjust this value to shift the button downwards */
+      padding: 1rem;
+      background-color: #42b2fc;
+      color: white;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  .errorTextbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;  
+  }
+  .errorText{
+    font-size: large;
+    position: absolute;
+    background-color: #42b2fc;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 1rem 1.5rem;
+  }
+  .start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+    
+  }
+  .start-inner{
+    background-color: #42b2fc;
+    color: white;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    border: .5px solid rgb(97, 97, 97);
+    font-size: larger;
+    /* text-shadow: 10px 10px 10px rgba(0,0,0,0.3); */
+  }
+  .new{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* @media(max-height: 667px){ 
+      .obox{
+        width: 60vw ;
+      }
+  } */
+  @media (max-width: 666px){
+    body {
+      transform: rotate(90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+      overflow-x: hidden;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  @media (min-width: 666px) and (max-width: 1000px) {
+    
+    .my-div {
+      width: 30vw; /* Set the width to 50rem within this range */
+    }
+    .Mbox {
+      background-color: white;
+      padding-top: 0ch;
+      box-sizing: border-box;
+      /* position: absolute; */
+      font-weight: 440;
+      width: 14vh;
+      height: 14vh;
+      border: 3px solid #000000;
+      font-size: 2rem;
+  }
+  .Mbox1 {
+    background-color: white;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 14vh;
+    height: 14vh;
+    /* left: 10.5ch; */
+    padding-top: 0ch;
+    font-weight: 440;
+    text-align: center;
+    top: 5.5vh;
+    border: 3px solid #000000;
+    font-size: 2rem;
+}
+.mbox2 {
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  /* position: absolute; */
+  width: 14vh;
+  height: 14vh;
+  font-size: 2rem;
+  border: 3px solid #000000;
+}
+.obox {
+  /* position: absolute; */
+  width: 27rem;
+  height: 20vh;
+  padding: 20px;
+  align-items: center;
+  background: #7ec6f5;
+  border-radius: 9vh;
+  margin: 105px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 87px 0px;
+}
+.button1 {
+  margin-top: -2rem;
+  padding: 1rem;
+  background-color: #42b2fc;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+  }
+
+.levelDisplay{
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: darkblue;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+  
