@@ -12,7 +12,9 @@ function App() {
 			{user && payload && <Route path="/" exact element={<Main />} />}
 			<Route path="/signup" exact element={<Signup />} />
 			<Route path="/login" exact element={<Login />} />
-			<Route path="/" element={<Navigate replace to="/login" />} />
+			{!user && <Route path="*" element={<Navigate to="/login" replace />} />}
+			{user && payload && <Route path="*" element={<Navigate to="/" replace />} />}
+			
 		</Routes>
 	);
 }
